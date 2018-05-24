@@ -6,7 +6,7 @@
 > R is the name of the programming language itself and RStudio is a convenient interface, and both are installed on the lab computers.
 > For this first lab, we request that you login to the RStudio Server <https://rstudio.cos.gmu.edu>, as installing and setting up everything takes some time.
 
-Lab link: <https://mason-su18-cds-102-2a1.github.io/labs/lab-01-learning-to-use-github-and-rmarkdown/>
+Link: <https://mason-su18-cds-102-2a1.github.io/labs/lab-01-learning-to-use-github-and-rmarkdown/>
 
 ## How to submit
 
