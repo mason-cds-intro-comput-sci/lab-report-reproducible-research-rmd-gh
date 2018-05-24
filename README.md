@@ -1,4 +1,4 @@
-# CDS-102: Lab 1 — Reproducible research with RMarkdown and Github
+# Lab 1 — Reproducible research with RMarkdown and Github
 
 **Due:** May 25, 2018 \@ 11:59pm
 
