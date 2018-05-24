@@ -18,8 +18,8 @@
 
 5.  Click the green button that says "Create pull request".
 
-6.  Give the pull request the following title: [Submission: Lab 1, FirstName LastName]{.monospace}, replacing [FirstName]{.monospace} and [LastName]{.monospace} with your actual first and last name.
+6.  Give the pull request the following title: `Submission: Lab 1, FirstName LastName`, replacing `FirstName` and `LastName` with your actual first and last name.
 
-7.  In the messagebox, write: [My lab report is ready for grading @jkglasbrenner]{.monospace}.
+7.  In the messagebox, write: `My lab report is ready for grading @jkglasbrenner`.
 
 8.  Click "Create pull request" to lock in your submission
