@@ -1,6 +1,6 @@
 # Lab 1 — Reproducible research with RMarkdown and Github
 
-**Due:** May 25, 2018 \@ 11:59pm
+**Due:** May 28, 2018 \@ 11:59pm
 
 > This first lab will serve as a general introduction to the major tools and platforms that we will be using throughout the semester, which are R, RStudio, and Git/Github.
 > R is the name of the programming language itself and RStudio is a convenient interface, and both are installed on the lab computers.
