@@ -1,85 +1,61 @@
 ---
-title: "Lab 1 - Reproducible research with RMarkdown and Github"
+title: "Lab 1 — Reproducible research with RMarkdown and Github"
 author: "Fill in your full name"
 date: "Date of lab session"
+documentclass: article
+geometry: margin=1in
+fontsize: 11pt
 output:
   html_document:
-    fig_height: 4
     highlight: tango
-    self_contained: yes
-    theme: paper
+    self_contained: true
+  pdf_document:
+    highlight: tango
+  github_document:
+    html_preview: false
 ---
 
 ```{r setup, include=FALSE}
 # DO NOT ALTER CODE IN THIS CHUNK
-library(tidyverse)
+# Set knitr options
+knitr::opts_chunk$set(
+  echo = TRUE, eval = TRUE, fig.width = 5,
+  fig.asp = 0.618, out.width = "80%", dpi = 120,
+  fig.align = "center", cache = FALSE
+)
+# Load packages
+suppressPackageStartupMessages(library(tidyverse))
 ```
 
-* * *
+---
 
-## Lab report
-
-#### Exercise 1
-
-```{r}
+## Exercise 1
 
 
 
 
-```
-
-
-
-#### Exercise 2
-
-```{r}
+## Exercise 2
 
 
 
 
-```
-
-
-
-#### Exercise 3
-
-```{r}
+## Exercise 3
 
 
 
 
-```
-
-
-
-#### Exercise 4
-
-```{r}
+## Exercise 4
 
 
 
 
-```
-
-
-
-#### Exercise 5
-
-```{r}
+## Exercise 5
 
 
 
 
-```
+## Exercise 6
 
 
 
-#### Exercise 6
-
-```{r}
-
-
-
-
-```
 
