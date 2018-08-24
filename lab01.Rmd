@@ -1,33 +1,30 @@
 ---
-title: "Lab 1 — Reproducible research with RMarkdown and Github"
+title: "Reproducible research with RMarkdown and GitHub lab report"
 author: "Fill in your full name"
-date: "Date of lab session"
+date: "`r Sys.Date()`"
 documentclass: article
 geometry: margin=1in
 fontsize: 11pt
-output:
-  html_document:
-    highlight: tango
-    self_contained: true
-  pdf_document:
-    highlight: tango
-  github_document:
-    html_preview: false
 ---
 
-```{r setup, include=FALSE}
-# DO NOT ALTER CODE IN THIS CHUNK
+```{r setup, include = FALSE}
+# DO NOT ALTER THIS CHUNK
 # Set knitr options
 knitr::opts_chunk$set(
-  echo = TRUE, eval = TRUE, fig.width = 5,
-  fig.asp = 0.618, out.width = "80%", dpi = 120,
-  fig.align = "center", cache = FALSE
+  echo = TRUE,
+  eval = TRUE,
+  cache = FALSE,
+  warning = FALSE,
+  message = FALSE,
+  fig.width = 5,
+  fig.asp = 0.618,
+  fig.align = "center",
+  out.width = "80%",
+  dpi = 120
 )
-# Load packages
+# Load required packages
 suppressPackageStartupMessages(library(tidyverse))
 ```
-
----
 
 ## Exercise 1
 

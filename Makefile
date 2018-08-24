@@ -8,9 +8,10 @@ R										=		R
 RSCRIPT									=		Rscript
 ROPTS									=		--slave
 
-HTML									=		lab01.html
-PDF										=		lab01.pdf
-MD										=		lab01.md
+RMD_FILENAME							=		lab01
+HTML									=		$(RMD_FILENAME).html
+PDF										=		$(RMD_FILENAME).pdf
+MD										=		$(RMD_FILENAME).md
 
 HTML_OUTPUT								=		html_document
 PDF_OUTPUT								=		pdf_document
@@ -20,8 +21,8 @@ HTML_EXT								=		%.html : %.Rmd
 PDF_EXT									=		%.pdf : %.Rmd
 MD_EXT									=		%.md : %.Rmd
 
-ALL_FILES								=		$(HTML)							\
-												$(PDF)							\
+ALL_FILES								=		$(PDF)							\
+												$(HTML)							\
 												$(MD)
 
 CLEAN_FILES								=		*_files/						\

@@ -1,6 +1,5 @@
-Title: Lab 1 — Reproducible research with RMarkdown and Github
-Date: 2018-05-24
+Title: Reproducible research with RMarkdown and GitHub lab report
 Depends:
-  R (>= 3.4)
+  R (>= 3.5)
 Imports:
   tidyverse
